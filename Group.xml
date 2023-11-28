@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="com.sampleMaven.practice.DemoTest"/>
+      <class name="com.sampleMaven.practice.SampleTest"/>
+      <class name="com.sampleMaven.practice.PracticeTest"/>
+      <class name="com.sampleMaven.practice.AdminTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
