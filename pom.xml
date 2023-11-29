@@ -108,7 +108,7 @@
 							<version>3.2.2</version>
 							  <configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>Group.xml</suiteXmlFile>
+									<suiteXmlFile>regressionGroup.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
