@@ -11,12 +11,14 @@ public class SampleTest{
 		public void sample1()
 		{
 			System.out.println("--------sample 1----------");
+			System.out.println("=======smoke=========");
 		}
 
 		@Test(groups="regression")
 		public void sample2()
 		{
 			System.out.println("--------sample 2----------");
+			System.out.println("=======regression=========");
 		}
 	}
 

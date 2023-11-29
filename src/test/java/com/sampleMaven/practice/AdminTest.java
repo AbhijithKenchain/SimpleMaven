@@ -9,6 +9,7 @@ public class AdminTest {
 		public void admin1()
 		{
 			System.out.println("--------admin 1----------");
+			System.out.println("=======smoke=========");
 		
 		
 		
