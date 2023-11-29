@@ -10,6 +10,11 @@ public class DemoTest  {
 	{
 		System.out.println("--------demo1----------");
 		System.out.println("=======smoke and regression=========");
+	
+	
+	
+	
+	
 	}
 
 	@Test(groups="regression")
