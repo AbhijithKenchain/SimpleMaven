@@ -31,6 +31,7 @@ public class ParaJenkins {
 		String Url=System.getProperty("Url");
 		if (Browser.equalsIgnoreCase("chrome")) {
 			driver.get("https://www.google.com");
+			System.out.println("facebook opened");
 		} else if (Browser.equalsIgnoreCase("edge")) {
 			driver.get("https://www.facebook.com");
 		} else {
